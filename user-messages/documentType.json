@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "dni"
+  },
+  {
+    "id": 2,
+    "name": "nie"
+  },
+  {
+    "id": 3,
+    "name": "passport"
+  },
+  {
+    "id": 4,
+    "name": "other"
+  }
+]
