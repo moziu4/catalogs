@@ -3,56 +3,73 @@
     "id": 1,
     "role": "SuperAdmin",
     "perms": [
-      1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
+      "panel:view:admin", "panel:view:superadmin", "panel:view:agency", "panel:view:tenant",
+      "agency:create:global", "agency:update:global", "agency:delete:global", "agency:read:global", "agency:view_panel:global", "agency_user:create:global",
+      "tenant:create:global", "tenant:update:global", "tenant:delete:global", "tenant:read:global", "tenant:view_panel:global", "tenant_user:create:global",
+      "plan:create:global", "plan:update:global", "plan:delete:global", "plan:read:global",
+      "user:read:global", "client:read:global", "user:read:me"
     ]
   },
   {
     "id": 2,
     "role": "AgencyOwner",
     "perms": [
-      2, 4, 6, 7, 10, 11, 12, 13, 15, 16, 20, 21, 22, 23, 25
+      "panel:view:agency", "panel:view:tenant",
+      "agency:read:own", "agency:view_panel:global", "agency_user:create:global",
+      "tenant:create:global", "tenant:update:global", "tenant:delete:global", "tenant:read:own", "tenant:view_panel:global", "tenant_user:create:global",
+      "plan:read:own",
+      "user:create:agency", "user:update:agency", "user:delete:agency", "user:read:agency",
+      "user:read:me"
     ]
   },
   {
     "id": 3,
     "role": "AgencyAdmin",
     "perms": [
-      2, 4, 6, 7, 10, 11, 13, 15, 16, 20, 21, 23, 25
+      "panel:view:agency", "panel:view:tenant",
+      "agency:read:own", "agency:view_panel:global",
+      "tenant:create:global", "tenant:update:global", "tenant:read:own", "tenant:view_panel:global",
+      "plan:read:own",
+      "user:create:agency", "user:read:agency",
+      "user:read:me"
     ]
   },
   {
     "id": 4,
     "role": "AgencyMember",
     "perms": [
-      4, 13, 23, 25
+      "agency:read:own", "tenant:read:own", "user:read:agency", "user:read:me"
     ]
   },
   {
     "id": 5,
     "role": "TenantAdmin",
     "perms": [
-      11, 13, 16, 20, 21, 23, 25
+      "panel:view:tenant",
+      "tenant:update:global", "tenant:read:own", "tenant_user:create:global",
+      "plan:read:own",
+      "user:create:tenant", "user:read:tenant", "user:read:me"
     ]
   },
   {
     "id": 6,
     "role": "Editor",
     "perms": [
-      13, 23, 25
+      "tenant:read:own", "user:read:tenant", "user:read:me"
     ]
   },
   {
     "id": 7,
     "role": "Client",
     "perms": [
-      13, 23, 25
+      "tenant:read:own", "user:read:client", "user:read:me"
     ]
   },
   {
     "id": 8,
     "role": "Guest",
     "perms": [
-      25
+      "user:read:me"
     ]
   }
 ]
