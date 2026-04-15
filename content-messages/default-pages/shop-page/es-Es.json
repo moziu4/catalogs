@@ -1,0 +1,47 @@
+{
+  "tenant_id": "{{tenant_id}}",
+  "title": "Tienda",
+  "slug": "tienda",
+  "locale": "es-Es",
+  "schema_type": "page",
+  "meta": {
+    "meta_title": "Tienda - {{name}}",
+    "meta_description": "Explora nuestros productos en la tienda de {{name}}",
+    "og_image": null,
+    "og_title": null,
+    "og_description": null,
+    "keywords": ["tienda", "productos", "{{name}}"],
+    "canonical_url": null,
+    "no_index": false
+  },
+  "blocks": [
+    {
+      "block_type": "hero",
+      "content": {
+        "type": "hero",
+        "title": "Tienda Online",
+        "subtitle": "Aquí podrás ver todos nuestros productos próximamente.",
+        "image_url": "https://via.placeholder.com/1200x600",
+        "cta_text": "Volver al inicio",
+        "cta_link": "/"
+      },
+      "style": {
+        "variant": "primary",
+        "align": "center",
+        "spacing": "large"
+      }
+    },
+    {
+      "block_type": "richtext",
+      "content": {
+        "type": "richtext",
+        "body": "<p>Bienvenido a la sección de tienda de <strong>{{name}}</strong>.</p><p>Actualmente esta página es un marcador de posición. No se están cargando catálogos en este momento.</p>"
+      },
+      "style": {
+        "variant": "secondary",
+        "align": "left",
+        "spacing": "medium"
+      }
+    }
+  ]
+}

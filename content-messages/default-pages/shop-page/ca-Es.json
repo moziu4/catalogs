@@ -1,0 +1,47 @@
+{
+  "tenant_id": "{{tenant_id}}",
+  "title": "Botiga",
+  "slug": "botiga",
+  "locale": "ca-Es",
+  "schema_type": "page",
+  "meta": {
+    "meta_title": "Botiga - {{name}}",
+    "meta_description": "Explora els nostres productes a la botiga de {{name}}",
+    "og_image": null,
+    "og_title": null,
+    "og_description": null,
+    "keywords": ["botiga", "productes", "{{name}}"],
+    "canonical_url": null,
+    "no_index": false
+  },
+  "blocks": [
+    {
+      "block_type": "hero",
+      "content": {
+        "type": "hero",
+        "title": "Botiga Online",
+        "subtitle": "Aquí podràs veure tots els nostres productes properament.",
+        "image_url": "https://via.placeholder.com/1200x600",
+        "cta_text": "Tornar a l'inici",
+        "cta_link": "/"
+      },
+      "style": {
+        "variant": "primary",
+        "align": "center",
+        "spacing": "large"
+      }
+    },
+    {
+      "block_type": "richtext",
+      "content": {
+        "type": "richtext",
+        "body": "<p>Benvingut a la secció de botiga de <strong>{{name}}</strong>.</p><p>Actualment aquesta pàgina és un marcador de posició. No s'estan carregant catàlegs en aquest moment.</p>"
+      },
+      "style": {
+        "variant": "secondary",
+        "align": "left",
+        "spacing": "medium"
+      }
+    }
+  ]
+}

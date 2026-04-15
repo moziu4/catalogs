@@ -1,0 +1,47 @@
+{
+  "tenant_id": "{{tenant_id}}",
+  "title": "Bienvenido a {{name}}",
+  "slug": "home",
+  "locale": "es-Es",
+  "schema_type": "page",
+  "meta": {
+    "meta_title": "Home - {{name}}",
+    "meta_description": "Página de inicio de {{name}}",
+    "og_image": null,
+    "og_title": null,
+    "og_description": null,
+    "keywords": ["home", "{{name}}"],
+    "canonical_url": null,
+    "no_index": false
+  },
+  "blocks": [
+    {
+      "block_type": "hero",
+      "content": {
+        "type": "hero",
+        "title": "¡{{name}} ya está activo!",
+        "subtitle": "Tu nuevo tenant ha sido configurado correctamente.",
+        "image_url": "http://localhost:9000/contents/contents/25226c70-c696-4d20-9b1c-25db91dfbfdd.jpeg",
+        "cta_text": "Empezar",
+        "cta_link": "/"
+      },
+      "style": {
+        "variant": "primary",
+        "align": "center",
+        "spacing": "large"
+      }
+    },
+    {
+      "block_type": "richtext",
+      "content": {
+        "type": "richtext",
+        "body": "<p>Esta es una página de prueba creada automáticamente para <strong>{{name}}</strong>.</p><p>Puedes editar este contenido desde el panel de administración.</p>"
+      },
+      "style": {
+        "variant": "secondary",
+        "align": "left",
+        "spacing": "medium"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "tenant_id": "{{tenant_id}}",
+  "title": "Benvingut a {{name}}",
+  "slug": "home",
+  "locale": "ca-Es",
+  "schema_type": "page",
+  "meta": {
+    "meta_title": "Home - {{name}}",
+    "meta_description": "Pàgina d'inici de {{name}}",
+    "og_image": null,
+    "og_title": null,
+    "og_description": null,
+    "keywords": ["home", "{{name}}"],
+    "canonical_url": null,
+    "no_index": false
+  },
+  "blocks": [
+    {
+      "block_type": "hero",
+      "content": {
+        "type": "hero",
+        "title": "¡{{name}} ja està actiu!",
+        "subtitle": "El teu nou tenant ha estat configurat correctament.",
+        "image_url": "http://localhost:9000/contents/contents/25226c70-c696-4d20-9b1c-25db91dfbfdd.jpeg",
+        "cta_text": "Començar",
+        "cta_link": "/"
+      },
+      "style": {
+        "variant": "primary",
+        "align": "center",
+        "spacing": "large"
+      }
+    },
+    {
+      "block_type": "richtext",
+      "content": {
+        "type": "richtext",
+        "body": "<p>Aquesta és una pàgina de prova creada automàticament per a <strong>{{name}}</strong>.</p><p>Pots editar aquest contingut des del panell d'administració.</p>"
+      },
+      "style": {
+        "variant": "secondary",
+        "align": "left",
+        "spacing": "medium"
+      }
+    }
+  ]
+}

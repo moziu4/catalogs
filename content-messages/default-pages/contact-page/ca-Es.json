@@ -1,0 +1,47 @@
+{
+  "tenant_id": "{{tenant_id}}",
+  "title": "Contacte",
+  "slug": "contacte",
+  "locale": "ca-Es",
+  "schema_type": "page",
+  "meta": {
+    "meta_title": "Contacte - {{name}}",
+    "meta_description": "Posa't en contacte amb l'equip de {{name}}",
+    "og_image": null,
+    "og_title": null,
+    "og_description": null,
+    "keywords": ["contacte", "ajuda", "suport", "{{name}}"],
+    "canonical_url": null,
+    "no_index": false
+  },
+  "blocks": [
+    {
+      "block_type": "hero",
+      "content": {
+        "type": "hero",
+        "title": "Contacta amb nosaltres",
+        "subtitle": "Estem aquí per ajudar-te en el que necessitis.",
+        "image_url": "https://via.placeholder.com/1200x600",
+        "cta_text": "Truca'ns",
+        "cta_link": "tel:000000000"
+      },
+      "style": {
+        "variant": "primary",
+        "align": "center",
+        "spacing": "large"
+      }
+    },
+    {
+      "block_type": "richtext",
+      "content": {
+        "type": "richtext",
+        "body": "<h2>Tens alguna pregunta?</h2><p>Pots contactar amb <strong>{{name}}</strong> a través del nostre formulari o xarxes socials.</p><p>Aquesta pàgina de contacte s'ha creat automàticament.</p>"
+      },
+      "style": {
+        "variant": "secondary",
+        "align": "left",
+        "spacing": "medium"
+      }
+    }
+  ]
+}

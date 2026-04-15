@@ -1,0 +1,47 @@
+{
+  "tenant_id": "{{tenant_id}}",
+  "title": "À Propos",
+  "slug": "a-propos",
+  "locale": "fr-Fr",
+  "schema_type": "page",
+  "meta": {
+    "meta_title": "À Propos - {{name}}",
+    "meta_description": "En savoir plus sur {{name}} et notre mission",
+    "og_image": null,
+    "og_title": null,
+    "og_description": null,
+    "keywords": ["à propos", "entreprise", "{{name}}"],
+    "canonical_url": null,
+    "no_index": false
+  },
+  "blocks": [
+    {
+      "block_type": "hero",
+      "content": {
+        "type": "hero",
+        "title": "Qui sommes-nous",
+        "subtitle": "Découvrez l'histoire derrière {{name}}.",
+        "image_url": "https://via.placeholder.com/1200x600",
+        "cta_text": "En savoir plus",
+        "cta_link": "#"
+      },
+      "style": {
+        "variant": "primary",
+        "align": "center",
+        "spacing": "large"
+      }
+    },
+    {
+      "block_type": "richtext",
+      "content": {
+        "type": "richtext",
+        "body": "<h2>Notre Mission</h2><p>Chez <strong>{{name}}</strong>, nous nous efforçons d'offrir le meilleur service à nos clients.</p><p>Ceci est une page générée par défaut que vous pouvez personnaliser depuis le panneau de contrôle.</p>"
+      },
+      "style": {
+        "variant": "secondary",
+        "align": "left",
+        "spacing": "medium"
+      }
+    }
+  ]
+}
