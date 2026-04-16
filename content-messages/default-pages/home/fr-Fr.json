@@ -21,7 +21,7 @@
         "type": "hero",
         "title": "{{name}} est maintenant en ligne !",
         "subtitle": "Votre nouveau tenant a été configuré avec succès.",
-        "image_url": "http://localhost:9000/contents/contents/25226c70-c696-4d20-9b1c-25db91dfbfdd.jpeg",
+        "image_url": "http://localhost:9000/contents/contents/25226c70-c696-4d20-9b1c-25db91dfbfdd.jpeg?w=300&h=300",
         "cta_text": "Commencer",
         "cta_link": "/"
       },

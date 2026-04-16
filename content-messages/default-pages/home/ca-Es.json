@@ -21,7 +21,7 @@
         "type": "hero",
         "title": "¡{{name}} ja està actiu!",
         "subtitle": "El teu nou tenant ha estat configurat correctament.",
-        "image_url": "http://localhost:9000/contents/contents/25226c70-c696-4d20-9b1c-25db91dfbfdd.jpeg",
+        "image_url": "http://localhost:9000/contents/contents/25226c70-c696-4d20-9b1c-25db91dfbfdd.jpeg?w=300&h=300",
         "cta_text": "Començar",
         "cta_link": "/"
       },
