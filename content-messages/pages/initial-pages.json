@@ -1,32 +1,32 @@
 [
   {
-  "id": 1,
-  "code": "home",
+    "id": 1,
+    "code": "home",
     "type": "basic"
-},
-{
-  "id": 2,
-  "code": "about",
-  "type": "basic"
-},
-{
-  "id": 3,
-  "code": "contact",
-  "type": "basic"
-},
-{
-  "id": 4,
-  "code": "academy",
-  "type": "featured"
-},
-{
-  "id": 5,
-  "code": "shop",
-  "type": "featured"
-},
-{
-  "id": 6,
-  "code": "blog",
-  "type": "featured"
-}
+  },
+  {
+    "id": 2,
+    "code": "about",
+    "type": "basic"
+  },
+  {
+    "id": 3,
+    "code": "contact",
+    "type": "basic"
+  },
+  {
+    "id": 4,
+    "code": "academy",
+    "type": "featured"
+  },
+  {
+    "id": 5,
+    "code": "shop",
+    "type": "featured"
+  },
+  {
+    "id": 6,
+    "code": "blog",
+    "type": "featured"
+  }
 ]
