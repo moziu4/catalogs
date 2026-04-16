@@ -1,0 +1,47 @@
+{
+  "tenant_id": "{{tenant_id}}",
+  "title": "Akademie",
+  "slug": "akademie",
+  "locale": "de-De",
+  "schema_type": "page",
+  "meta": {
+    "meta_title": "Akademie - {{name}}",
+    "meta_description": "Entdecken Sie unsere Kurse in der {{name}} Akademie",
+    "og_image": null,
+    "og_title": null,
+    "og_description": null,
+    "keywords": ["akademie", "kurse", "{{name}}"],
+    "canonical_url": null,
+    "no_index": false
+  },
+  "blocks": [
+    {
+      "block_type": "hero",
+      "content": {
+        "type": "hero",
+        "title": "Online-Akademie",
+        "subtitle": "Hier können Sie in Kürze alle unsere Kurse sehen.",
+        "image_url": "https://via.placeholder.com/1200x600",
+        "cta_text": "Zurück zur Startseite",
+        "cta_link": "/"
+      },
+      "style": {
+        "variant": "primary",
+        "align": "center",
+        "spacing": "large"
+      }
+    },
+    {
+      "block_type": "richtext",
+      "content": {
+        "type": "richtext",
+        "body": "<p>Willkommen im Akademie-Bereich von <strong>{{name}}</strong>.</p><p>Derzeit ist diese Seite ein Platzhalter. Es werden momentan keine Kurse geladen.</p>"
+      },
+      "style": {
+        "variant": "secondary",
+        "align": "left",
+        "spacing": "medium"
+      }
+    }
+  ]
+}

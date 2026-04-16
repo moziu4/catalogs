@@ -1,0 +1,47 @@
+{
+  "tenant_id": "{{tenant_id}}",
+  "title": "Blog",
+  "slug": "blog",
+  "locale": "en-Us",
+  "schema_type": "page",
+  "meta": {
+    "meta_title": "Blog - {{name}}",
+    "meta_description": "Read the latest news and articles in the {{name}} blog",
+    "og_image": null,
+    "og_title": null,
+    "og_description": null,
+    "keywords": ["blog", "news", "articles", "{{name}}"],
+    "canonical_url": null,
+    "no_index": false
+  },
+  "blocks": [
+    {
+      "block_type": "hero",
+      "content": {
+        "type": "hero",
+        "title": "Blog",
+        "subtitle": "You will be able to read our latest articles here soon.",
+        "image_url": "https://via.placeholder.com/1200x600",
+        "cta_text": "Back to home",
+        "cta_link": "/"
+      },
+      "style": {
+        "variant": "primary",
+        "align": "center",
+        "spacing": "large"
+      }
+    },
+    {
+      "block_type": "richtext",
+      "content": {
+        "type": "richtext",
+        "body": "<p>Welcome to the blog section of <strong>{{name}}</strong>.</p><p>Currently, this page is a placeholder. No articles are being loaded at this time.</p>"
+      },
+      "style": {
+        "variant": "secondary",
+        "align": "left",
+        "spacing": "medium"
+      }
+    }
+  ]
+}
