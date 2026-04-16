@@ -21,7 +21,7 @@
         "type": "hero",
         "title": "{{name}} is now live!",
         "subtitle": "Your new tenant has been correctly configured.",
-        "image_url": "http://localhost:9000/contents/contents/25226c70-c696-4d20-9b1c-25db91dfbfdd.jpeg?w=300&h=300",
+        "image_url": "http://localhost:9000/product-images/products/medium/c3183787-3f67-413a-919e-4809f295d129.jpeg",
         "cta_text": "Get started",
         "cta_link": "/"
       },
