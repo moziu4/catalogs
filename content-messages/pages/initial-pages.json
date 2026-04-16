@@ -1,0 +1,26 @@
+[
+  {
+  "id": 1,
+  "code": "home"
+},
+{
+  "id": 2,
+  "code": "about"
+},
+{
+  "id": 3,
+  "code": "contact"
+},
+{
+  "id": 4,
+  "code": "academy"
+},
+{
+  "id": 5,
+  "code": "shop"
+},
+{
+  "id": 6,
+  "code": "blog"
+}
+]
