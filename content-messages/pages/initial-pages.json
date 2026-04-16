@@ -1,26 +1,32 @@
 [
   {
   "id": 1,
-  "code": "home"
+  "code": "home",
+    "type": "basic"
 },
 {
   "id": 2,
-  "code": "about"
+  "code": "about",
+  "type": "basic"
 },
 {
   "id": 3,
-  "code": "contact"
+  "code": "contact",
+  "type": "basic"
 },
 {
   "id": 4,
-  "code": "academy"
+  "code": "academy",
+  "type": "featured"
 },
 {
   "id": 5,
-  "code": "shop"
+  "code": "shop",
+  "type": "featured"
 },
 {
   "id": 6,
-  "code": "blog"
+  "code": "blog",
+  "type": "featured"
 }
 ]
