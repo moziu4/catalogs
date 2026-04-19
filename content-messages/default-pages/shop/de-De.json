@@ -1,47 +1,60 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "Shop",
-  "slug": "shop",
-  "locale": "de-De",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "Shop - {{name}}",
-    "meta_description": "Entdecken Sie unsere Produkte im {{name}} Shop",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["shop", "produkte", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "Online-Shop",
-        "subtitle": "Hier können Sie in Kürze alle unsere Produkte sehen.",
-        "image_url": "https://via.placeholder.com/1200x600",
-        "cta_text": "Zurück zur Startseite",
-        "cta_link": "/"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      }
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<p>Willkommen im Shop-Bereich von <strong>{{name}}</strong>.</p><p>Derzeit ist diese Seite ein Platzhalter. Es werden momentan keine Kataloge geladen.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      }
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "Shop",
+    "slug":  "shop",
+    "locale":  "de-De",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "Shop - {{name}}",
+                 "meta_description":  "Entdecken Sie unsere Produkte im {{name}} Shop",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "shop",
+                                  "produkte",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "Online-Shop",
+                                                "subtitle":  "Hier können Sie in Kürze alle unsere Produkte sehen.",
+                                                "cta_text":  "Zurück zur Startseite",
+                                                "cta_link":  "/",
+                                                "image_item":  {
+                                                                   "id":  null,
+                                                                   "version_image":  "medium"
+                                                               }
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<p>Willkommen im Shop-Bereich von <strong>{{name}}</strong>.</p><p>Derzeit ist diese Seite ein Platzhalter. Es werden momentan keine Kataloge geladen.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }

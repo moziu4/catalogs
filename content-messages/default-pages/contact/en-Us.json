@@ -1,47 +1,61 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "Contact",
-  "slug": "contact",
-  "locale": "en-Us",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "Contact - {{name}}",
-    "meta_description": "Get in touch with the {{name}} team",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["contact", "help", "support", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "Contact us",
-        "subtitle": "We are here to help you with whatever you need.",
-        "image_url": "https://via.placeholder.com/1200x600",
-        "cta_text": "Call us",
-        "cta_link": "tel:000000000"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      }
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<h2>Have any questions?</h2><p>You can contact <strong>{{name}}</strong> through our form or social media.</p><p>This contact page was created automatically.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      }
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "Contact",
+    "slug":  "contact",
+    "locale":  "en-Us",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "Contact - {{name}}",
+                 "meta_description":  "Get in touch with the {{name}} team",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "contact",
+                                  "help",
+                                  "support",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "Contact us",
+                                                "subtitle":  "We are here to help you with whatever you need.",
+                                                "cta_text":  "Call us",
+                                                "cta_link":  "tel:000000000",
+                                                "image_item":  {
+                                                                   "id":  null,
+                                                                   "version_image":  "medium"
+                                                               }
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<h2>Have any questions?</h2><p>You can contact <strong>{{name}}</strong> through our form or social media.</p><p>This contact page was created automatically.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }

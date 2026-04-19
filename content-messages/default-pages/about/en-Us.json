@@ -1,52 +1,60 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "About Us",
-  "slug": "about-us",
-  "locale": "en-Us",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "About Us - {{name}}",
-    "meta_description": "Learn more about {{name}} and our mission",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["about us", "company", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "embedded_blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "Who we are",
-        "subtitle": "Discover the story behind {{name}}.",
-        "image_item": {
-          "id": null,
-          "version_image": "medium"
-        },
-        "cta_text": "Learn more",
-        "cta_link": "#"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      },
-      "children": []
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<h2>Our Mission</h2><p>At <strong>{{name}}</strong>, we strive to offer the best service to our customers.</p><p>This is a default generated page that you can customize from the control panel.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      },
-      "children": []
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "About Us",
+    "slug":  "about-us",
+    "locale":  "en-Us",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "About Us - {{name}}",
+                 "meta_description":  "Learn more about {{name}} and our mission",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "about us",
+                                  "company",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "Who we are",
+                                                "subtitle":  "Discover the story behind {{name}}.",
+                                                "image_item":  {
+                                                                   "id":  null,
+                                                                   "version_image":  "medium"
+                                                               },
+                                                "cta_text":  "Learn more",
+                                                "cta_link":  "#"
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<h2>Our Mission</h2><p>At <strong>{{name}}</strong>, we strive to offer the best service to our customers.</p><p>This is a default generated page that you can customize from the control panel.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }

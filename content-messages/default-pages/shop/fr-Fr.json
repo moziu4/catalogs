@@ -1,47 +1,60 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "Boutique",
-  "slug": "boutique",
-  "locale": "fr-Fr",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "Boutique - {{name}}",
-    "meta_description": "Explorez nos produits dans la boutique de {{name}}",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["boutique", "produits", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "Boutique en ligne",
-        "subtitle": "Vous pourrez bientôt voir tous nos produits ici.",
-        "image_url": "https://via.placeholder.com/1200x600",
-        "cta_text": "Retour à l'accueil",
-        "cta_link": "/"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      }
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<p>Bienvenue dans la section boutique de <strong>{{name}}</strong>.</p><p>Actuellement, cette page est un espace réservé. Aucun catalogue n'est chargé pour le moment.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      }
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "Boutique",
+    "slug":  "boutique",
+    "locale":  "fr-Fr",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "Boutique - {{name}}",
+                 "meta_description":  "Explorez nos produits dans la boutique de {{name}}",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "boutique",
+                                  "produits",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "Boutique en ligne",
+                                                "subtitle":  "Vous pourrez bientôt voir tous nos produits ici.",
+                                                "cta_text":  "Retour à l'accueil",
+                                                "cta_link":  "/",
+                                                "image_item":  {
+                                                                   "id":  null,
+                                                                   "version_image":  "medium"
+                                                               }
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<p>Bienvenue dans la section boutique de <strong>{{name}}</strong>.</p><p>Actuellement, cette page est un espace réservé. Aucun catalogue n'est chargé pour le moment.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }

@@ -1,47 +1,60 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "Academia",
-  "slug": "academia",
-  "locale": "ca-Es",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "Acadèmia - {{name}}",
-    "meta_description": "Explora els nostres cursos a l'acadèmia de {{name}}",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["acadèmia", "cursos", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "Acadèmia Online",
-        "subtitle": "Aquí podràs veure tots els nostres cursos properament.",
-        "image_url": "https://via.placeholder.com/1200x600",
-        "cta_text": "Tornar a l'inici",
-        "cta_link": "/"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      }
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<p>Benvingut a la secció d'acadèmia de <strong>{{name}}</strong>.</p><p>Actualment aquesta pàgina és un marcador de posició. No s'estan carregant cursos en aquest moment.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      }
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "Academia",
+    "slug":  "academia",
+    "locale":  "ca-Es",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "Acadèmia - {{name}}",
+                 "meta_description":  "Explora els nostres cursos a l'acadèmia de {{name}}",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "acadèmia",
+                                  "cursos",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "Acadèmia Online",
+                                                "subtitle":  "Aquí podràs veure tots els nostres cursos properament.",
+                                                "cta_text":  "Tornar a l'inici",
+                                                "cta_link":  "/",
+                                                "image_item":  {
+                                                                   "id":  null,
+                                                                   "version_image":  "medium"
+                                                               }
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<p>Benvingut a la secció d'acadèmia de <strong>{{name}}</strong>.</p><p>Actualment aquesta pàgina és un marcador de posició. No s'estan carregant cursos en aquest moment.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }

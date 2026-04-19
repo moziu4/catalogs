@@ -1,47 +1,61 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "Blog",
-  "slug": "blog",
-  "locale": "es-Es",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "Blog - {{name}}",
-    "meta_description": "Lee las últimas noticias y artículos en el blog de {{name}}",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["blog", "noticias", "artículos", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "Blog",
-        "subtitle": "Aquí podrás leer nuestros últimos artículos próximamente.",
-        "image_url": "https://via.placeholder.com/1200x600",
-        "cta_text": "Volver al inicio",
-        "cta_link": "/"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      }
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<p>Bienvenido a la sección de blog de <strong>{{name}}</strong>.</p><p>Actualmente esta página es un marcador de posición. No se están cargando artículos en este momento.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      }
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "Blog",
+    "slug":  "blog",
+    "locale":  "es-Es",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "Blog - {{name}}",
+                 "meta_description":  "Lee las últimas noticias y artículos en el blog de {{name}}",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "blog",
+                                  "noticias",
+                                  "artículos",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "Blog",
+                                                "subtitle":  "Aquí podrás leer nuestros últimos artículos próximamente.",
+                                                "cta_text":  "Volver al inicio",
+                                                "cta_link":  "/",
+                                                "image_item":  {
+                                                                   "id":  null,
+                                                                   "version_image":  "medium"
+                                                               }
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<p>Bienvenido a la sección de blog de <strong>{{name}}</strong>.</p><p>Actualmente esta página es un marcador de posición. No se están cargando artículos en este momento.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }

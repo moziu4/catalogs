@@ -1,47 +1,61 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "Kontakt",
-  "slug": "kontakt",
-  "locale": "de-De",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "Kontakt - {{name}}",
-    "meta_description": "Kontaktieren Sie das Team von {{name}}",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["kontakt", "hilfe", "support", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "Kontaktieren Sie uns",
-        "subtitle": "Wir sind hier, um Ihnen bei allem zu helfen, was Sie brauchen.",
-        "image_url": "https://via.placeholder.com/1200x600",
-        "cta_text": "Rufen Sie uns an",
-        "cta_link": "tel:000000000"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      }
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<h2>Haben Sie Fragen?</h2><p>Sie können <strong>{{name}}</strong> über unser Formular oder die sozialen Medien kontaktieren.</p><p>Diese Kontaktseite wurde automatisch erstellt.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      }
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "Kontakt",
+    "slug":  "kontakt",
+    "locale":  "de-De",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "Kontakt - {{name}}",
+                 "meta_description":  "Kontaktieren Sie das Team von {{name}}",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "kontakt",
+                                  "hilfe",
+                                  "support",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "Kontaktieren Sie uns",
+                                                "subtitle":  "Wir sind hier, um Ihnen bei allem zu helfen, was Sie brauchen.",
+                                                "cta_text":  "Rufen Sie uns an",
+                                                "cta_link":  "tel:000000000",
+                                                "image_item":  {
+                                                                   "id":  null,
+                                                                   "version_image":  "medium"
+                                                               }
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<h2>Haben Sie Fragen?</h2><p>Sie können <strong>{{name}}</strong> über unser Formular oder die sozialen Medien kontaktieren.</p><p>Diese Kontaktseite wurde automatisch erstellt.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }

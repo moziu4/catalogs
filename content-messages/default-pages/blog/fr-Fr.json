@@ -1,47 +1,61 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "Blog",
-  "slug": "blog",
-  "locale": "fr-Fr",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "Blog - {{name}}",
-    "meta_description": "Lisez les dernières nouvelles et articles sur le blog de {{name}}",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["blog", "nouvelles", "articles", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "Blog",
-        "subtitle": "Vous pourrez bientôt lire nos derniers articles ici.",
-        "image_url": "https://via.placeholder.com/1200x600",
-        "cta_text": "Retour à l'accueil",
-        "cta_link": "/"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      }
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<p>Bienvenue dans la section blog de <strong>{{name}}</strong>.</p><p>Actuellement, cette page est un espace réservé. Aucun article n'est chargé pour le moment.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      }
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "Blog",
+    "slug":  "blog",
+    "locale":  "fr-Fr",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "Blog - {{name}}",
+                 "meta_description":  "Lisez les dernières nouvelles et articles sur le blog de {{name}}",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "blog",
+                                  "nouvelles",
+                                  "articles",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "Blog",
+                                                "subtitle":  "Vous pourrez bientôt lire nos derniers articles ici.",
+                                                "cta_text":  "Retour à l'accueil",
+                                                "cta_link":  "/",
+                                                "image_item":  {
+                                                                   "id":  null,
+                                                                   "version_image":  "medium"
+                                                               }
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<p>Bienvenue dans la section blog de <strong>{{name}}</strong>.</p><p>Actuellement, cette page est un espace réservé. Aucun article n'est chargé pour le moment.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }

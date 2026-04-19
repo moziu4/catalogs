@@ -1,52 +1,60 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "Sobre Nosotros",
-  "slug": "sobre-nosotros",
-  "locale": "es-Es",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "Sobre Nosotros - {{name}}",
-    "meta_description": "Conoce más sobre {{name}} y nuestra misión",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["sobre nosotros", "empresa", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "embedded_blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "Quiénes somos",
-        "subtitle": "Descubre la historia detrás de {{name}}.",
-        "image_item": {
-          "id": null,
-          "version_image": "medium"
-        },
-        "cta_text": "Saber más",
-        "cta_link": "#"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      },
-      "children": []
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<h2>Nuestra Misión</h2><p>En <strong>{{name}}</strong> nos esforzamos por ofrecer el mejor servicio a nuestros clientes.</p><p>Esta es una página generada por defecto que puedes personalizar desde el panel de control.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      },
-      "children": []
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "Sobre Nosotros",
+    "slug":  "sobre-nosotros",
+    "locale":  "es-Es",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "Sobre Nosotros - {{name}}",
+                 "meta_description":  "Conoce más sobre {{name}} y nuestra misión",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "sobre nosotros",
+                                  "empresa",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "Quiénes somos",
+                                                "subtitle":  "Descubre la historia detrás de {{name}}.",
+                                                "image_item":  {
+                                                                   "id":  null,
+                                                                   "version_image":  "medium"
+                                                               },
+                                                "cta_text":  "Saber más",
+                                                "cta_link":  "#"
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<h2>Nuestra Misión</h2><p>En <strong>{{name}}</strong> nos esforzamos por ofrecer el mejor servicio a nuestros clientes.</p><p>Esta es una página generada por defecto que puedes personalizar desde el panel de control.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }

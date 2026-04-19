@@ -1,52 +1,59 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "Welcome to {{name}}",
-  "slug": "home",
-  "locale": "en-Us",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "Home - {{name}}",
-    "meta_description": "{{name}} home page",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["home", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "embedded_blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "{{name}} is now live!",
-        "subtitle": "Your new tenant has been correctly configured.",
-        "image_item": {
-          "id": "c3183787-3f67-413a-919e-4809f295d129",
-          "version_image": "medium"
-        },
-        "cta_text": "Get started",
-        "cta_link": "/"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      },
-      "children": []
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<p>This is an automatically created test page for <strong>{{name}}</strong>.</p><p>You can edit this content from the administration panel.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      },
-      "children": []
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "Welcome to {{name}}",
+    "slug":  "home",
+    "locale":  "en-Us",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "Home - {{name}}",
+                 "meta_description":  "{{name}} home page",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "home",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "{{name}} is now live!",
+                                                "subtitle":  "Your new tenant has been correctly configured.",
+                                                "image_item":  {
+                                                                   "id":  "c3183787-3f67-413a-919e-4809f295d129",
+                                                                   "version_image":  "medium"
+                                                               },
+                                                "cta_text":  "Get started",
+                                                "cta_link":  "/"
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<p>This is an automatically created test page for <strong>{{name}}</strong>.</p><p>You can edit this content from the administration panel.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }

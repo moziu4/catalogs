@@ -1,47 +1,60 @@
 {
-  "tenant_id": "{{tenant_id}}",
-  "title": "Academia",
-  "slug": "academia",
-  "locale": "es-Es",
-  "schema_type": "page",
-  "meta": {
-    "meta_title": "Academia - {{name}}",
-    "meta_description": "Explora nuestros cursos en la academia de {{name}}",
-    "og_image": null,
-    "og_title": null,
-    "og_description": null,
-    "keywords": ["academia", "cursos", "{{name}}"],
-    "canonical_url": null,
-    "no_index": false
-  },
-  "blocks": [
-    {
-      "block_type": "hero",
-      "content": {
-        "type": "hero",
-        "title": "Academia Online",
-        "subtitle": "Aquí podrás ver todos nuestros cursos próximamente.",
-        "image_url": "https://via.placeholder.com/1200x600",
-        "cta_text": "Volver al inicio",
-        "cta_link": "/"
-      },
-      "style": {
-        "variant": "primary",
-        "align": "center",
-        "spacing": "large"
-      }
-    },
-    {
-      "block_type": "richtext",
-      "content": {
-        "type": "richtext",
-        "body": "<p>Bienvenido a la sección de academia de <strong>{{name}}</strong>.</p><p>Actualmente esta página es un marcador de posición. No se están cargando cursos en este momento.</p>"
-      },
-      "style": {
-        "variant": "secondary",
-        "align": "left",
-        "spacing": "medium"
-      }
-    }
-  ]
+    "tenant_id":  "{{tenant_id}}",
+    "title":  "Academia",
+    "slug":  "academia",
+    "locale":  "es-Es",
+    "schema_type":  "page",
+    "meta":  {
+                 "meta_title":  "Academia - {{name}}",
+                 "meta_description":  "Explora nuestros cursos en la academia de {{name}}",
+                 "og_image":  null,
+                 "og_title":  null,
+                 "og_description":  null,
+                 "keywords":  [
+                                  "academia",
+                                  "cursos",
+                                  "{{name}}"
+                              ],
+                 "canonical_url":  null,
+                 "no_index":  false
+             },
+    "embedded_blocks":  [
+                            {
+                                "block_type":  "hero",
+                                "content":  {
+                                                "type":  "hero",
+                                                "title":  "Academia Online",
+                                                "subtitle":  "Aquí podrás ver todos nuestros cursos próximamente.",
+                                                "cta_text":  "Volver al inicio",
+                                                "cta_link":  "/",
+                                                "image_item":  {
+                                                                   "id":  null,
+                                                                   "version_image":  "medium"
+                                                               }
+                                            },
+                                "style":  {
+                                              "variant":  "primary",
+                                              "align":  "center",
+                                              "spacing":  "large"
+                                          },
+                                "children":  [
+
+                                             ]
+                            },
+                            {
+                                "block_type":  "richtext",
+                                "content":  {
+                                                "type":  "richtext",
+                                                "body":  "<p>Bienvenido a la sección de academia de <strong>{{name}}</strong>.</p><p>Actualmente esta página es un marcador de posición. No se están cargando cursos en este momento.</p>"
+                                            },
+                                "style":  {
+                                              "variant":  "secondary",
+                                              "align":  "left",
+                                              "spacing":  "medium"
+                                          },
+                                "children":  [
+
+                                             ]
+                            }
+                        ]
 }
