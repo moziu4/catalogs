@@ -14,14 +14,17 @@
     "canonical_url": null,
     "no_index": false
   },
-  "blocks": [
+  "embedded_blocks": [
     {
       "block_type": "hero",
       "content": {
         "type": "hero",
         "title": "¡{{name}} ja està actiu!",
         "subtitle": "El teu nou tenant ha estat configurat correctament.",
-        "image_url": "http://localhost:9000/product-images/products/medium/c3183787-3f67-413a-919e-4809f295d129.jpeg",
+        "image_item": {
+          "id": "c3183787-3f67-413a-919e-4809f295d129",
+          "version_image": "medium"
+        },
         "cta_text": "Començar",
         "cta_link": "/"
       },
@@ -29,7 +32,8 @@
         "variant": "primary",
         "align": "center",
         "spacing": "large"
-      }
+      },
+      "children": []
     },
     {
       "block_type": "richtext",
@@ -41,7 +45,8 @@
         "variant": "secondary",
         "align": "left",
         "spacing": "medium"
-      }
+      },
+      "children": []
     }
   ]
 }

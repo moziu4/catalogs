@@ -14,14 +14,17 @@
     "canonical_url": null,
     "no_index": false
   },
-  "blocks": [
+  "embedded_blocks": [
     {
       "block_type": "hero",
       "content": {
         "type": "hero",
         "title": "Wer wir sind",
         "subtitle": "Entdecken Sie die Geschichte hinter {{name}}.",
-        "image_url": "https://via.placeholder.com/1200x600",
+        "image_item": {
+          "id": null,
+          "version_image": "medium"
+        },
         "cta_text": "Mehr erfahren",
         "cta_link": "#"
       },
@@ -29,7 +32,8 @@
         "variant": "primary",
         "align": "center",
         "spacing": "large"
-      }
+      },
+      "children": []
     },
     {
       "block_type": "richtext",
@@ -41,7 +45,8 @@
         "variant": "secondary",
         "align": "left",
         "spacing": "medium"
-      }
+      },
+      "children": []
     }
   ]
 }
