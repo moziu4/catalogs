@@ -27,11 +27,7 @@
                                                 "title":  "Contactez-nous",
                                                 "subtitle":  "Nous sommes là pour vous aider dans tout ce dont vous avez besoin.",
                                                 "cta_text":  "Appelez-nous",
-                                                "cta_link":  "tel:000000000",
-                                                "image_item":  {
-                                                                   "id":  null,
-                                                                   "version_image":  "medium"
-                                                               }
+                                                "cta_link":  "tel:000000000"
                                             },
                                 "style":  {
                                               "variant":  "primary",

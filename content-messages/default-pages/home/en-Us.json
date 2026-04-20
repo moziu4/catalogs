@@ -24,10 +24,10 @@
                                                 "type":  "hero",
                                                 "title":  "{{name}} is now live!",
                                                 "subtitle":  "Your new tenant has been correctly configured.",
-                                                "image_item":  {
-                                                                   "id":  "c3183787-3f67-413a-919e-4809f295d129",
-                                                                   "version_image":  "medium"
-                                                               },
+                                  "image_item":  {
+                                    "id":  "62b8a052-33b2-4af2-a67c-afb21ab32075",
+                                    "alt":  "medium"
+                                  },
                                                 "cta_text":  "Get started",
                                                 "cta_link":  "/"
                                             },

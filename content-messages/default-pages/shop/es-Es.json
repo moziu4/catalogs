@@ -26,11 +26,7 @@
                                                 "title":  "Tienda Online",
                                                 "subtitle":  "Aquí podrás ver todos nuestros productos próximamente.",
                                                 "cta_text":  "Volver al inicio",
-                                                "cta_link":  "/",
-                                                "image_item":  {
-                                                                   "id":  null,
-                                                                   "version_image":  "medium"
-                                                               }
+                                                "cta_link":  "/"
                                             },
                                 "style":  {
                                               "variant":  "primary",

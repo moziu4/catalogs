@@ -1,59 +1,57 @@
 {
-    "tenant_id":  "{{tenant_id}}",
-    "title":  "Willkommen bei {{name}}",
-    "slug":  "home",
-    "locale":  "de-De",
-    "schema_type":  "page",
-    "meta":  {
-                 "meta_title":  "Home - {{name}}",
-                 "meta_description":  "Startseite von {{name}}",
-                 "og_image":  null,
-                 "og_title":  null,
-                 "og_description":  null,
-                 "keywords":  [
-                                  "home",
-                                  "{{name}}"
-                              ],
-                 "canonical_url":  null,
-                 "no_index":  false
-             },
-    "embedded_blocks":  [
-                            {
-                                "block_type":  "hero",
-                                "content":  {
-                                                "type":  "hero",
-                                                "title":  "{{name}} ist jetzt live!",
-                                                "subtitle":  "Ihr neuer Tenant wurde erfolgreich konfiguriert.",
-                                                "image_item":  {
-                                                                   "id":  "c3183787-3f67-413a-919e-4809f295d129",
-                                                                   "version_image":  "medium"
-                                                               },
-                                                "cta_text":  "Loslegen",
-                                                "cta_link":  "/"
-                                            },
-                                "style":  {
-                                              "variant":  "primary",
-                                              "align":  "center",
-                                              "spacing":  "large"
-                                          },
-                                "children":  [
-
-                                             ]
-                            },
-                            {
-                                "block_type":  "richtext",
-                                "content":  {
-                                                "type":  "richtext",
-                                                "body":  "<p>Dies ist eine automatisch erstellte Testseite für <strong>{{name}}</strong>.</p><p>Sie können diesen Inhalt über das Administrationspanel bearbeiten.</p>"
-                                            },
-                                "style":  {
-                                              "variant":  "secondary",
-                                              "align":  "left",
-                                              "spacing":  "medium"
-                                          },
-                                "children":  [
-
-                                             ]
-                            }
-                        ]
+  "tenant_id": "{{tenant_id}}",
+  "title": "Willkommen bei {{name}}",
+  "slug": "home",
+  "locale": "de-De",
+  "schema_type": "page",
+  "meta": {
+    "meta_title": "Home - {{name}}",
+    "meta_description": "Startseite von {{name}}",
+    "og_image": null,
+    "og_title": null,
+    "og_description": null,
+    "keywords": [
+      "home",
+      "{{name}}"
+    ],
+    "canonical_url": null,
+    "no_index": false
+  },
+  "embedded_blocks": [
+    {
+      "block_type": "hero",
+      "content": {
+        "type": "hero",
+        "title": "{{name}} ist jetzt live!",
+        "subtitle": "Ihr neuer Tenant wurde erfolgreich konfiguriert.",
+        "image_item": {
+          "id": "62b8a052-33b2-4af2-a67c-afb21ab32075",
+          "alt": "medium"
+        },
+        "cta_text": "Loslegen",
+        "cta_link": "/"
+      },
+      "style": {
+        "variant": "primary",
+        "align": "center",
+        "spacing": "large"
+      },
+      "children": [
+      ]
+    },
+    {
+      "block_type": "richtext",
+      "content": {
+        "type": "richtext",
+        "body": "<p>Dies ist eine automatisch erstellte Testseite für <strong>{{name}}</strong>.</p><p>Sie können diesen Inhalt über das Administrationspanel bearbeiten.</p>"
+      },
+      "style": {
+        "variant": "secondary",
+        "align": "left",
+        "spacing": "medium"
+      },
+      "children": [
+      ]
+    }
+  ]
 }

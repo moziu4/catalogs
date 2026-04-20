@@ -26,11 +26,7 @@
                                                 "title":  "Online Shop",
                                                 "subtitle":  "You will be able to see all our products here soon.",
                                                 "cta_text":  "Back to home",
-                                                "cta_link":  "/",
-                                                "image_item":  {
-                                                                   "id":  null,
-                                                                   "version_image":  "medium"
-                                                               }
+                                                "cta_link":  "/"
                                             },
                                 "style":  {
                                               "variant":  "primary",

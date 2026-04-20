@@ -26,11 +26,7 @@
                                                 "title":  "Online-Shop",
                                                 "subtitle":  "Hier können Sie in Kürze alle unsere Produkte sehen.",
                                                 "cta_text":  "Zurück zur Startseite",
-                                                "cta_link":  "/",
-                                                "image_item":  {
-                                                                   "id":  null,
-                                                                   "version_image":  "medium"
-                                                               }
+                                                "cta_link":  "/"
                                             },
                                 "style":  {
                                               "variant":  "primary",

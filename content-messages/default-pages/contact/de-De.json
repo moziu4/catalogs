@@ -28,11 +28,11 @@
                                                 "subtitle":  "Wir sind hier, um Ihnen bei allem zu helfen, was Sie brauchen.",
                                                 "cta_text":  "Rufen Sie uns an",
                                                 "cta_link":  "tel:000000000",
-                                                "image_item":  {
-                                                                   "id":  null,
-                                                                   "version_image":  "medium"
-                                                               }
-                                            },
+                                  "image_item":  {
+                                    "id":  "62b8a052-33b2-4af2-a67c-afb21ab32075",
+                                    "alt":  "medium"
+                                  }
+                                },
                                 "style":  {
                                               "variant":  "primary",
                                               "align":  "center",

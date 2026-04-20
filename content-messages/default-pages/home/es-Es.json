@@ -25,8 +25,8 @@
                                                 "title":  "¡{{name}} ya está activo!",
                                                 "subtitle":  "Tu nuevo tenant ha sido configurado correctamente.",
                                                 "image_item":  {
-                                                                   "id":  "c3183787-3f67-413a-919e-4809f295d129",
-                                                                   "version_image":  "medium"
+                                                                   "id":  "62b8a052-33b2-4af2-a67c-afb21ab32075",
+                                                                   "alt":  "medium"
                                                                },
                                                 "cta_text":  "Empezar",
                                                 "cta_link":  "/"

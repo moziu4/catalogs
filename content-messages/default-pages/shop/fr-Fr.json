@@ -26,11 +26,7 @@
                                                 "title":  "Boutique en ligne",
                                                 "subtitle":  "Vous pourrez bientôt voir tous nos produits ici.",
                                                 "cta_text":  "Retour à l'accueil",
-                                                "cta_link":  "/",
-                                                "image_item":  {
-                                                                   "id":  null,
-                                                                   "version_image":  "medium"
-                                                               }
+                                                "cta_link":  "/"
                                             },
                                 "style":  {
                                               "variant":  "primary",

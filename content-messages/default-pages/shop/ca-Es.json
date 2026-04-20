@@ -26,11 +26,7 @@
                                                 "title":  "Botiga Online",
                                                 "subtitle":  "Aquí podràs veure tots els nostres productes properament.",
                                                 "cta_text":  "Tornar a l'inici",
-                                                "cta_link":  "/",
-                                                "image_item":  {
-                                                                   "id":  null,
-                                                                   "version_image":  "medium"
-                                                               }
+                                                "cta_link":  "/"
                                             },
                                 "style":  {
                                               "variant":  "primary",
