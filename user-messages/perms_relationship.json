@@ -3,8 +3,8 @@
     "id": 1,
     "role": "SuperAdmin",
     "perms": [
-      "panel:view:admin", "panel:view:superadmin", "panel:view:agency", "panel:view:tenant",
-      "agency:create:global", "agency:update:global", "agency:delete:global", "agency:read:global", "agency:view_panel:global", "agency_user:create:global",
+      "panel:view:admin", "panel:view:superadmin", "panel:view:organization", "panel:view:tenant",
+      "organization:create:global", "organization:update:global", "organization:delete:global", "organization:read:global", "organization:view_panel:global", "organization_user:create:global",
       "tenant:create:global", "tenant:update:global", "tenant:delete:global", "tenant:read:global", "tenant:view_panel:global", "tenant_user:create:global",
       "plan:create:global", "plan:update:global", "plan:delete:global", "plan:read:global",
       "user:read:global", "client:read:global", "user:read:me"
@@ -12,33 +12,33 @@
   },
   {
     "id": 2,
-    "role": "AgencyOwner",
+    "role": "OrganizationOwner",
     "perms": [
-      "panel:view:agency", "panel:view:tenant",
-      "agency:read:own", "agency:view_panel:global", "agency_user:create:global",
+      "panel:view:organization", "panel:view:tenant",
+      "organization:read:own", "organization:view_panel:global", "organization_user:create:global",
       "tenant:create:global", "tenant:update:global", "tenant:delete:global", "tenant:read:own", "tenant:view_panel:global", "tenant_user:create:global",
       "plan:read:own",
-      "user:create:agency", "user:update:agency", "user:delete:agency", "user:read:agency",
+      "user:create:organization", "user:update:organization", "user:delete:organization", "user:read:organization",
       "user:read:me"
     ]
   },
   {
     "id": 3,
-    "role": "AgencyAdmin",
+    "role": "OrganizationAdmin",
     "perms": [
-      "panel:view:agency", "panel:view:tenant",
-      "agency:read:own", "agency:view_panel:global",
+      "panel:view:organization", "panel:view:tenant",
+      "organization:read:own", "organization:view_panel:global",
       "tenant:create:global", "tenant:update:global", "tenant:read:own", "tenant:view_panel:global",
       "plan:read:own",
-      "user:create:agency", "user:read:agency",
+      "user:create:organization", "user:read:organization",
       "user:read:me"
     ]
   },
   {
     "id": 4,
-    "role": "AgencyMember",
+    "role": "OrganizationMember",
     "perms": [
-      "agency:read:own", "tenant:read:own", "user:read:agency", "user:read:me"
+      "organization:read:own", "tenant:read:own", "user:read:organization", "user:read:me"
     ]
   },
   {
